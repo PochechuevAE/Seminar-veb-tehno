@@ -1,0 +1,32 @@
+html {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+background-color: #FFEFD5;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 2px 2px 2px white;
+}
+
+p, li {
+    font-size: 16 px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ffe485;
+    padding: 0 20px 20px 20px;
+    border: 2 ps solid white;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+   
