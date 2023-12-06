@@ -1,34 +1,35 @@
 html {
     font-size: 15px;
     font-family: "Roboto", sans-serif;
-background-color: rgb(170, 242, 255);
+background-color: rgb(142, 130, 145);
 }
 
-h1 {
+h1,h2, a {
     font-size: 50px;
     text-align: center;
     font-style: oblique;
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 20px 0;
     text-shadow: 2px 2px 2px rgb(255, 128, 128);
 }
 
-p, h2, h3, h4 {
+p, h3, h4 {
     font-size: 16 px;
     font-style: oblique;
     line-height: 2;
     letter-spacing: 1px;
-    margin: 0 0 0 500;
+    margin: 0 0 0 530;
 }
 
 ul, li {
     font-size: 16 px;
     font-style: oblique;
-    text-align: center;
+    margin: 0 0 0 250;
     line-height: 2;
     letter-spacing: 1px;
-    color: rgb(153, 30, 210);
-    text-shadow: 2px 2px 2px rgb(255, 128, 128);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 img {
@@ -37,6 +38,13 @@ img {
     position: absolute;
     top: 100;
     left: 0;
-    width: 500px; 
-    height: 700px;
+    width: 400px; 
+    height: 500px;
+    border: 2px solid #000;
 }
+
+a:hover {
+    
+    color: rgba(255, 0, 0, 0.123);
+}
+
