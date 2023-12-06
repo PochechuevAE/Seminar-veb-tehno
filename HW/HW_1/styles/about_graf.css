@@ -1,7 +1,7 @@
 html {
     font-size: 15px;
     font-family: "Roboto", sans-serif;
-background-color: rgb(170, 210, 255);
+background-color: rgb(170, 242, 255);
 }
 
 h1 {
@@ -18,13 +18,13 @@ p, h2, h3, h4 {
     font-style: oblique;
     line-height: 2;
     letter-spacing: 1px;
-    margin: 0 500px 0 500px;
+    margin: 0 0 0 500;
 }
 
-ul {
+ul, li {
     font-size: 16 px;
     font-style: oblique;
-    margin: 0 500px 0 500px;
+    text-align: center;
     line-height: 2;
     letter-spacing: 1px;
     color: rgb(153, 30, 210);
