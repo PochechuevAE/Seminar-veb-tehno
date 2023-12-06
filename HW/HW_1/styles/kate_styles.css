@@ -1,4 +1,42 @@
+html {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+background-color: rgb(170, 210, 255);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 2px 2px 2px rgb(255, 128, 128);
+}
+
+p, h2, h3, h4 {
+    font-size: 16 px;
+    font-style: oblique;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 0 500px 0 500px;
+}
+
+ul {
+    font-size: 16 px;
+    font-style: oblique;
+    margin: 0 500px 0 500px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: rgb(153, 30, 210);
+    text-shadow: 2px 2px 2px rgb(255, 128, 128);
+}
+
 img {
     display: block;
     margin: 0 auto;
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 500px; 
+    height: 700px;
 }
